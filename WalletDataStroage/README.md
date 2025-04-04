@@ -6,17 +6,27 @@ that no duplicate entries are created.**
 
 
 Fetches the latest user data from Firebase Realtime Database.
+
+
 Extracts wallet addresses and character-related metadata.
 
 **Stores:**
 -A text file containing character details and Downloaded character images (from URLs) where both consists the character data.
+
+
 -Zipped archives of the character data per user wallet.
+
+
 -Prevents duplicate storage by checking existing files in the user's wallet folder.
 
 
 🧠 **Features**
 🔥 Integration with Firebase Realtime Database
+
+
 📥 Automatic image downloading and archiving
+
+
 📂 Folder-based wallet structure
 🚫 Duplication check for character entries
 🗃️ Clean zip archive packaging
