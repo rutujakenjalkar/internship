@@ -3,6 +3,8 @@ wallet data and character-related content from Firebase the follwoing system was
 that no duplicate entries are created.**
 
 📦 **WHAT IT DOES**
+
+
 Fetches the latest user data from Firebase Realtime Database.
 Extracts wallet addresses and character-related metadata.
 
