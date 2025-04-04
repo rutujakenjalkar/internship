@@ -10,7 +10,7 @@ Fetches the latest user data from Firebase Realtime Database.
 
 Extracts wallet addresses and character-related metadata.
 
-- [x]**Stores:**
+- [x] **Stores:**
 
 
 - A text file containing character details and Downloaded character images (from URLs) where both consists the character data.
