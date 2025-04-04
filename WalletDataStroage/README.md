@@ -13,13 +13,13 @@ Extracts wallet addresses and character-related metadata.
 **Stores:**
 
 
--A text file containing character details and Downloaded character images (from URLs) where both consists the character data.
+- A text file containing character details and Downloaded character images (from URLs) where both consists the character data.
 
 
--Zipped archives of the character data per user wallet.
+- Zipped archives of the character data per user wallet.
 
 
--Prevents duplicate storage by checking existing files in the user's wallet folder.
+- Prevents duplicate storage by checking existing files in the user's wallet folder.
 
 
 🧠 **Features**
@@ -43,16 +43,16 @@ Extracts wallet addresses and character-related metadata.
 🛠 **Technologies Used**
 
 
--Python 3
+- Python 3
 
 
--Firebase Admin SDK
+- Firebase Admin SDK
 
 
--Pandas
+- Pandas
 
 
--Requests
+- Requests
 
 
--OS / shutil / zipfile
+- OS / shutil / zipfile
