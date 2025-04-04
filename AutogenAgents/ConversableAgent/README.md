@@ -35,24 +35,7 @@ Here’s how to build one:
 4. **Run the Agent**  
    Start the interaction by sending a prompt.  
    The agent will continue the conversation until it receives a termination message.
+   You can run the agent with : agent.run()
 
 ---
 
-## 🧪 Example
-
-```python
-from autogen import ConversableAgent, LLMConfig
-
-llm_config = LLMConfig(
-    api_type="openai",
-    api_key="your-api-key-here",
-    model="gpt-4"
-)
-
-agent = ConversableAgent(
-    name="HelperAgent",
-    llm_config=llm_config,
-    system_message="You are a helpful assistant that provides accurate information."
-)
-
-agent.run()
