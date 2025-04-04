@@ -11,6 +11,8 @@ Fetches the latest user data from Firebase Realtime Database.
 Extracts wallet addresses and character-related metadata.
 
 **Stores:**
+
+
 -A text file containing character details and Downloaded character images (from URLs) where both consists the character data.
 
 
@@ -21,6 +23,8 @@ Extracts wallet addresses and character-related metadata.
 
 
 🧠 **Features**
+
+
 🔥 Integration with Firebase Realtime Database
 
 
@@ -28,13 +32,27 @@ Extracts wallet addresses and character-related metadata.
 
 
 📂 Folder-based wallet structure
+
+
 🚫 Duplication check for character entries
+
+
 🗃️ Clean zip archive packaging
 
 
 🛠 **Technologies Used**
+
+
 -Python 3
+
+
 -Firebase Admin SDK
+
+
 -Pandas
+
+
 -Requests
+
+
 -OS / shutil / zipfile
